@@ -1,0 +1,7 @@
+name: UBSQLPlugin
+version: 1.0
+description: connect SQL database
+author: Unreal_Lan
+website: http://ubnlh.com
+
+main: com.ubnlh.main.UBSQLPlugin

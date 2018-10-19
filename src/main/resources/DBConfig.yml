@@ -1,0 +1,4 @@
+#在此处填写你的数据库连接信息
+url: jdbc:mysql://localhost:3306/ubnlh_minecraft
+username: root
+password: root
