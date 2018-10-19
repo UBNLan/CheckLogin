@@ -4,7 +4,7 @@ import com.ubnlh.utils.DBConfig;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public class UBSQLPlugin extends JavaPlugin{
+public class CheckLogin extends JavaPlugin{
 
     //入口
     @Override

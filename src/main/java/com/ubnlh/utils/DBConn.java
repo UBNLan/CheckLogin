@@ -1,6 +1,6 @@
 package com.ubnlh.utils;
 
-import com.ubnlh.main.UBSQLPlugin;
+import com.ubnlh.main.CheckLogin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.sql.Connection;
@@ -28,7 +28,7 @@ public class DBConn {
             connection = DriverManager.getConnection(url,username,password);
             //System.out.println("连接数据库成功");
         } catch (Exception e) {
-            JavaPlugin.getProvidingPlugin(UBSQLPlugin.class).getLogger().warning("连接数据库失败，请检查plugin/UBSQLPlugin/DBConfig.yml中的数据库配置");
+            JavaPlugin.getProvidingPlugin(CheckLogin.class).getLogger().warning("连接数据库失败，请检查plugin/CheckLogin/DBConfig.yml中的数据库配置");
         }
     }
 

@@ -13,7 +13,7 @@ public class PlayerEvendhandler implements Listener{
     public void onPlayerJoin(PlayerJoinEvent event) throws Exception {
         Player pl = event.getPlayer();
         Bukkit.broadcastMessage(pl.getName() + "进入了游戏");
-        new DBThread(pl).runTaskAsynchronously(JavaPlugin.getProvidingPlugin(UBSQLPlugin.class));
+        new DBThread(pl).runTaskAsynchronously(JavaPlugin.getProvidingPlugin(CheckLogin.class));
 
     }
 }

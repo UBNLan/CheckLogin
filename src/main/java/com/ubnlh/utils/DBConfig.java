@@ -1,6 +1,6 @@
 package com.ubnlh.utils;
 
-import com.ubnlh.main.UBSQLPlugin;
+import com.ubnlh.main.CheckLogin;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -12,7 +12,7 @@ public class DBConfig {
     private static File dbConfigFile;
     private static FileConfiguration dbConfig;
 
-    private JavaPlugin plugin = JavaPlugin.getProvidingPlugin(UBSQLPlugin.class);
+    private JavaPlugin plugin = JavaPlugin.getProvidingPlugin(CheckLogin.class);
 
     //创建配置文件
     public void createDBConfig(){
